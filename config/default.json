@@ -1,6 +1,12 @@
 {
 	"Discord" : {
-		"token":"EnterYourTokenHere",
-		"admin":"AdminDiscordID1 AdminDiscordID2 ..."
+		"token":"EntrerLeTokenIci",
+		"adminID":"AdminDiscordID1 AdminDiscordID2 ...",
+		"server":{
+			"id":"EntrerIDDuServer(Guild)Ici",
+			"channels": {
+				"bienvenue" : "EntrerIDDuSalonBienvenueIci"
+			}
+		}
 	}
 }
