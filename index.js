@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('config');
+const pjson = require('./package.json')
 
 //Variables globales
 var token;
@@ -48,8 +49,8 @@ async function initBot(){
 
 	client.on('message', (message) => {
 		if(message.channel.type=="dm" && adminIDs.includes(message.author.id)){
-			if(message.content=="ping"){
-				message.reply("pong");
+			if(message.content=="version"){
+				message.reply(`Version du bot : ${pjson.version}`);
 			}
 		}
 	});
