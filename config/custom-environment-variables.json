@@ -1,0 +1,21 @@
+{
+	"Discord" : {
+		"token":"DISCORD_TOKEN",
+		"adminID":"DISCORD_ADMINID",
+		"server":{
+			"id":"DISCORD_SERVER_ID",
+			"channels": {
+				"bienvenue" : "DISCORD_SERVER_CHANNELS_BIENVENUE",
+				"general" : "DISCORD_SERVER_CHANNELS_GENERAL"
+			},
+			"emojis" : {
+				"teacher" : "DISCORD_SERVER_EMOJIS_TEACHER",
+				"student" : "DISCORD_SERVER_EMOJIS_STUDENT"
+			},
+			"roles" : {
+				"teacher" : "DISCORD_SERVER_ROLE_TEACHER",
+				"student" : "DISCORD_SERVER_ROLE_STUDENT"
+			}
+		}
+	}
+}
