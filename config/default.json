@@ -1,11 +1,20 @@
 {
 	"Discord" : {
 		"token":"EntrerLeTokenIci",
-		"adminID":"AdminDiscordID1 AdminDiscordID2 ...",
+		"adminID":"AdminDiscordId1 AdminDiscordId2 ...",
 		"server":{
-			"id":"EntrerIDDuServer(Guild)Ici",
+			"id":"EntrerIdDuServer(Guild)Ici",
 			"channels": {
-				"bienvenue" : "EntrerIDDuSalonBienvenueIci"
+				"bienvenue" : "EntrerIdDuSalonBienvenueIci",
+				"general" : "EntrerIdDuSalonGeneralIci"
+			},
+			"emojis" : {
+				"teacher" : "EntrerIdEmojiProfesseurIci",
+				"student" : "EntrerIdEmojiEtudiantIci"
+			},
+			"roles" : {
+				"teacher" : "EntrerIdRoleProfesseurIci",
+				"student" : "EntrerIdRoleEtudiantIci"
 			}
 		}
 	}
